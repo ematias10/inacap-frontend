@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffcc00;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffcc00;
+}
+
+header button{
+    padding: 10px 20px;
+    background-color: #bd63c5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    background-color: #ffcc00;
+    padding: 10px 0px;
+    justify-content: center;
+    border-bottom: 3px #333 solid;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+
+}
+
+.principal{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.principal main{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-personajes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.contenedor-personajes article{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: #5a5a5a;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffcc00;
+}
+
+.contenedor-personajes article h3{
+    font-size: 32px;
+    background-color: #1b1b1b;
+}
+
+.contenedor-personajes article img{
+    width: 150px;
+    max-height: 160px;
+    align-self: center;
+}
+
+
+.principal aside{
+    flex: 1;
+    padding: 0px 20px;
+    background-color: #bd63c5;
+    border-radius: 24px;
+    color: whitesmoke;
+}
+
+.contenedor-episodios{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.contenedor-episodios article{
+    width: 300px;
+}
+
+footer{
+    background-color: #1b1b1b;
+    color: whitesmoke;
+    margin: 0;
+}
